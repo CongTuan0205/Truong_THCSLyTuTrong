@@ -2483,3 +2483,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 .btn-xs {
     color: #fff !important;
 }
+
+body {
+    transform: scale(0.9);
+    transform-origin: top center;
+}
