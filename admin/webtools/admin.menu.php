@@ -13,9 +13,7 @@ if (!defined('NV_ADMIN')) {
     exit('Stop!!!');
 }
 
-if (isset($lang_module['global_statistics'])) {
-    $submenu['statistics'] = $lang_module['global_statistics'];
-}
+    
 $submenu['clearsystem'] = $lang_module['clearsystem'];
 if (empty($global_config['idsite'])) {
     $submenu['checkupdate'] = $lang_module['checkupdate'];
