@@ -7,3 +7,9 @@
 [Thu, 12 Mar 2026 11:46:59 +0700] [localhost] [::1] [Warning(2): Undefined array key 1] [FILE: /admin/themes/activatetheme.php] [LINE: 148] [TRACE:]
 #1  LINE: 182   FILE: /admin/index.php
 
+[Thu, 12 Mar 2026 12:25:23 +0700] [localhost] [::1] [Warning(2): Undefined array key "global_statistics"] [FILE: /admin/webtools/admin.menu.php] [LINE: 16] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+#2  LINE: 1305  FILE: /modules/news/admin/main.php
+#3  LINE: 250   FILE: /themes/admin_default/theme.php
+#4  LINE: 71    FILE: /themes/admin_default/theme.php
+
