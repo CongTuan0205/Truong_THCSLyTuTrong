@@ -13,3 +13,12 @@
 #3  LINE: 250   FILE: /themes/admin_default/theme.php
 #4  LINE: 71    FILE: /themes/admin_default/theme.php
 
+[Thu, 12 Mar 2026 18:45:15 +0700] [localhost] [::1] [Warning(2): Undefined variable $weight] [FILE: /modules/menu/admin/rows.php] [LINE: 65] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Thu, 12 Mar 2026 18:45:15 +0700] [localhost] [::1] [Warning(2): Undefined variable $sort] [FILE: /modules/menu/admin/rows.php] [LINE: 66] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
+[Thu, 12 Mar 2026 18:45:24 +0700] [localhost] [::1] [Warning(2): Undefined variable $array_item] [FILE: /modules/menu/admin/rows.php] [LINE: 48] [TRACE:]
+#1  LINE: 182   FILE: /admin/index.php
+
