@@ -54,7 +54,15 @@ if ($checkss == $nv_Request->get_string('checkss', 'post')) {
         $array_config['site_keywords'] = (!empty($array_config['site_keywords'])) ? implode(', ', $array_config['site_keywords']) : '';
     }
 
-   tan
+   $site_logo = $nv_Request->get_title('site_logo', 'post', '');
+    if (empty($site_logo) or $site_logo == NV_ASSETS_DIR . '/images/logo.png') {
+        $array_config['site_logo'] = '';
+    } elseif (!nv_is_url($site_logo)) {
+        if (nv_is_file($site_logo) === true) {
+            $array_config['site_logo'] = substr($site_logo, strlen(NV_BASE_SITEURL));
+        } else {
+            $array_config['site_logo'] = '';
+        }
     }
 
     $site_banner = $nv_Request->get_title('site_banner', 'post');
@@ -139,7 +147,7 @@ while (list($theme) = $result->fetch(3)) {
 $global_config['switch_mobi_des'] = !empty($global_config['switch_mobi_des']) ? ' checked="checked"' : '';
 
 $site_logo = '';
-if (!empty($global_config['site_logo']) and $global_config['site_logo'] != NV_ASSETS_DIR . '/images/' and !nv_is_url($global_config['site_logo']) and file_exists(NV_ROOTDIR . '/' . $global_config['site_logo'])) {
+if (!empty($global_config['site_logo']) and $global_config['site_logo'] != NV_ASSETS_DIR . '/images/logo.png' and !nv_is_url($global_config['site_logo']) and file_exists(NV_ROOTDIR . '/' . $global_config['site_logo'])) {
     $site_logo = NV_BASE_SITEURL . $global_config['site_logo'];
 }
 

@@ -13,7 +13,7 @@ if (!defined('NV_IS_FILE_ADMIN')) {
     exit('Stop!!!');
 }
 
-$array_logo_position = [
+$array__position = [
     'bottomRight' => $lang_module['logoposbottomright'],
     'bottomLeft' => $lang_module['logoposbottomleft'],
     'bottomCenter' => $lang_module['logoposbottomcenter'],
