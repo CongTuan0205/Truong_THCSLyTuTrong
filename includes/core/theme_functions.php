@@ -191,7 +191,7 @@ function nv_info_die($page_title, $info_title, $info_content, $error_code = 200,
     }
 
     empty($global_config['site_url']) && $global_config['site_url'] = NV_SERVER_PROTOCOL . '://' . $global_config['my_domains'][0] . NV_SERVER_PORT;
-    empty($global_config['site_logo']) && $global_config['site_logo'] = NV_ASSETS_DIR . '/images/logo.png';
+    empty($global_config['site_logo']) && $global_config['site_logo'] = NV_ASSETS_DIR . ;
 
     $xtpl = new XTemplate('info_die.tpl', $tpl_path);
     $xtpl->assign('SITE_CHARSET', $global_config['site_charset']);
@@ -540,7 +540,7 @@ function nv_rss_generate($channel, $items, $atomlink = '', $timemode = 'GMT', $n
         $xtpl->parse('main.pubDate');
     }
 
-    $image = file_exists(NV_ROOTDIR . '/' . $global_config['site_logo']) ? NV_ROOTDIR . '/' . $global_config['site_logo'] : NV_ROOTDIR . '/' . NV_ASSETS_DIR . '/images/logo.png';
+    $image = file_exists(NV_ROOTDIR . '/' . $global_config['site_logo']) ? NV_ROOTDIR . '/' . $global_config['site_logo'] : NV_ROOTDIR . '/' . NV_ASSETS_DIR . ;
     $image = nv_ImageInfo($image, 144, true, NV_UPLOADS_REAL_DIR);
 
     if (!empty($image)) {

@@ -339,7 +339,7 @@ if (!empty($global_config['openid_servers'])) {
 }
 
 if (empty($global_config['site_logo'])) {
-    $global_config['site_logo'] = NV_ASSETS_DIR . '/images/logo.png';
+    $global_config['site_logo'] = NV_ASSETS_DIR . '/images/';
 }
 
 $global_config['array_theme_type'] = !empty($global_config['theme_type']) ? explode(',', $global_config['theme_type']) : [];

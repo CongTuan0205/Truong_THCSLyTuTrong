@@ -139,7 +139,7 @@ while (list($theme) = $result->fetch(3)) {
 $global_config['switch_mobi_des'] = !empty($global_config['switch_mobi_des']) ? ' checked="checked"' : '';
 
 $site_logo = '';
-if (!empty($global_config['site_logo']) and $global_config['site_logo'] != NV_ASSETS_DIR . '/images/logo.png' and !nv_is_url($global_config['site_logo']) and file_exists(NV_ROOTDIR . '/' . $global_config['site_logo'])) {
+if (!empty($global_config['site_logo']) and $global_config['site_logo'] != NV_ASSETS_DIR . '/images/' and !nv_is_url($global_config['site_logo']) and file_exists(NV_ROOTDIR . '/' . $global_config['site_logo'])) {
     $site_logo = NV_BASE_SITEURL . $global_config['site_logo'];
 }
 
