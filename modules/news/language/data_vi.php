@@ -52,13 +52,45 @@ $db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_d
 $db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_cat (catid, parentid, title, titlesite, alias, description, descriptionhtml, image, viewdescription, weight, sort, lev, viewcat, numsubcat, subcatid, numlinks, newday, keywords, admins, add_time, edit_time, groups_view, status) VALUES (2, 0, 'Sản phẩm', '', 'San-pham', '', '', '', 0, 2, 5, 0, 'viewcat_page_new', 0, '', 4, '2', '', '', 1274986705, 1274986705, '6', 1)");
 $db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_cat (catid, parentid, title, titlesite, alias, description, descriptionhtml, image, viewdescription, weight, sort, lev, viewcat, numsubcat, subcatid, numlinks, newday, keywords, admins, add_time, edit_time, groups_view, status) VALUES (3, 0, 'Đối tác', '', 'Doi-tac', '', '', '', 0, 3, 9, 0, 'viewcat_page_new', 0, '', 4, '2', '', '', 1274987460, 1274987460, '6', 1)");
 $db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_cat (catid, parentid, title, titlesite, alias, description, descriptionhtml, image, viewdescription, weight, sort, lev, viewcat, numsubcat, subcatid, numlinks, newday, keywords, admins, add_time, edit_time, groups_view, status) VALUES (4, 0, 'Tuyển dụng', '', 'Tuyen-dung', '', '', '', 0, 4, 12, 0, 'viewcat_page_new', 0, '', 4, '2', '', '', 1274987538, 1274987538, '6', 1)");
-$db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_cat (catid, parentid, title, titlesite, alias, description, descriptionhtml, image, viewdescription, weight, sort, lev, viewcat, numsubcat, subcatid, numlinks, newday, keywords, admins, add_time, edit_time, groups_view, status) VALUES (5, 1, 'Thông cáo báo chí', '', 'thong-cao-bao-chi', '', '', '', 0, 1, 2, 1, 'viewcat_page_new', 0, '', 4, '2', '', '', 1274987105, 1274987244, '6', 1)");
-$db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_cat (catid, parentid, title, titlesite, alias, description, descriptionhtml, image, viewdescription, weight, sort, lev, viewcat, numsubcat, subcatid, numlinks, newday, keywords, admins, add_time, edit_time, groups_view, status) VALUES (6, 1, 'Tin công nghệ', '', 'Tin-cong-nghe', '', '', '', 0, 3, 4, 1, 'viewcat_page_new', 0, '', 4, '2', '', '', 1274987212, 1274987212, '6', 1)");
-$db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_cat (catid, parentid, title, titlesite, alias, description, descriptionhtml, image, viewdescription, weight, sort, lev, viewcat, numsubcat, subcatid, numlinks, newday, keywords, admins, add_time, edit_time, groups_view, status) VALUES (7, 1, 'Bản tin nội bộ', '', 'Ban-tin-noi-bo', '', '', '', 0, 2, 3, 1, 'viewcat_page_new', 0, '', 4, '2', '', '', 1274987902, 1274987902, '6', 1)");
-
-// News: bodyhtml, bodytext
-$sth_detail = $db->prepare('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_detail (id, titlesite, description, bodyhtml, sourcetext, imgposition, copyright, allowed_send, allowed_print, allowed_save) VALUES (:id, '', '', :bodyhtml, :sourcetext, 2, 0, 1, 1, 1)");
-
+$db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_cat (catid, parentid, title, titlesite, alias, description, descriptionhtml, image, viewdescription, weight, sort, lev, viewcat, numsubcat, subcatid, numlinks, newday, keywords, admins, add_time, edit_time, groups_view, status) VALUES (5, 1, 'Thông cáo báo chí', '', 'thong-cao-bao-chi', '', '', '', 0, 1， 2， 1， 'viewcat_page_new'， 0， ''， 4， '2'， ''， ''， 1274987105， 1274987244， '6'， 1)");
+$db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_cat (catid, parentid, title, titlesite, alias, description, descriptionhtml,
+ image,
+ viewdescription,
+ weight,
+ sort,
+ lev,
+ viewcat,
+ numsubcat,
+ subcatid,
+ numlinks,
+ newday,
+ keywords,
+ admins,
+ add_time,
+ edit_time,
+ groups_view,
+ status) VALUES (6,
+ 1,
+ 'Thành Tích Công Nghệ',
+ '',
+ '',
+ '',
+ 0,
+ 3,
+ 4,
+ 1,
+ 'viewcat_page_new',
+ 0,
+ '',
+ 4,
+ '2',
+ '',
+ '',
+ 1274987212,
+ 1274987212,
+ '6',
+ 1)");
+$db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_cat (catid<|fim_middle|>
 $id = 1;
 list($homeimgfile, $homeimgthumb) = nv_news_check_image_exit('nangly.jpg', $module_upload);
 $db->query('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . '_rows (id, catid, listcatid, topicid, admin_id, author, sourceid, addtime, edittime, status, publtime, exptime, archive, title, alias, hometext, homeimgfile, homeimgalt, homeimgthumb, inhome, allowed_comm, allowed_rating, hitstotal, hitscm, total_rating, click_rating) VALUES (' . $id . ", 1, '1,5,7', 0, 1, 'Quỳnh Nhi', 1, 1274989177, 1275318126, 1, 1274989140, 0, 2, 'Ra mắt công ty mã nguồn mở đầu tiên tại Việt Nam', 'Ra-mat-cong-ty-ma-nguon-mo-dau-tien-tai-Viet-Nam', 'Mã nguồn mở NukeViet vốn đã quá quen thuộc với cộng đồng CNTT Việt Nam trong mấy năm qua. Tuy chưa hoạt động chính thức, nhưng chỉ trong khoảng 5 năm gần đây, mã nguồn mở NukeViet đã được dùng phổ biến ở Việt Nam, áp dụng ở hầu hết các lĩnh vực, từ tin tức đến thương mại điện tử, từ các website cá nhân cho tới những hệ thống website doanh nghiệp.', " . $db->quote($homeimgfile) . ", 'Thành lập VINADES.,JSC', " . (int) $homeimgthumb . ", 1, '6', 1, 2, 0, 0, 0)");

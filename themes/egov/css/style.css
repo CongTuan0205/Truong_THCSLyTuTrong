@@ -2483,4 +2483,13 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 .btn-xs {
     color: #fff !important;
 }
+.right-sidebar .panel,
+#right .panel {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.right-sidebar {
+    padding-right: 15px;
+}
 
