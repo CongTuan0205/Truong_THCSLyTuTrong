@@ -56,9 +56,10 @@ hr {
 }
 
 #header {
-    height: 73px;
-    background: url(../images/top_bg.png) bottom repeat-x;
-    padding: 0 20px
+    height: auto;
+    background: url(../images/top_bg.png) center no-repeat;
+    background-size: contain;
+    padding: 0 20px;
 }
 
 h1#install_title {
