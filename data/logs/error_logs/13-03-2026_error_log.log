@@ -1,0 +1,4 @@
+[Fri, 13 Mar 2026 11:38:44 +0700] [localhost] [::1] [Warning(2): Undefined array key "langstar"] [FILE: /themes/egov/modules/news/theme.php] [LINE: 760] [TRACE:]
+#1  LINE: 345   FILE: /index.php
+#2  LINE: 514   FILE: /modules/news/funcs/detail.php
+
