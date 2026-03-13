@@ -2,3 +2,19 @@
 #1  LINE: 345   FILE: /index.php
 #2  LINE: 514   FILE: /modules/news/funcs/detail.php
 
+[Fri, 13 Mar 2026 12:06:20 +0700] [localhost] [127.0.0.1] [Notice(8): unserialize(): Error at offset 7570 of 11950 bytes] [FILE: /vendor/vinades/nukeviet/Cache/Files.php] [LINE: 205] [TRACE:]
+#1  LINE: 345   FILE: /index.php
+#2  LINE: 182   FILE: /modules/page/funcs/main.php
+#3  LINE: 319   FILE: /themes/egov/theme.php
+#4  LINE: 178   FILE: /includes/core/user_functions.php
+#5  LINE: 272   FILE: /themes/egov/blocks/global.bootstrap.php
+#6  LINE: 144   FILE: /themes/egov/blocks/global.bootstrap.php
+#7  LINE: 205   FILE: /vendor/vinades/nukeviet/Cache/Files.php
+
+[Fri, 13 Mar 2026 12:06:20 +0700] [localhost] [127.0.0.1] [Warning(2): foreach() argument must be of type array|object, bool given] [FILE: /themes/egov/blocks/global.bootstrap.php] [LINE: 145] [TRACE:]
+#1  LINE: 345   FILE: /index.php
+#2  LINE: 182   FILE: /modules/page/funcs/main.php
+#3  LINE: 319   FILE: /themes/egov/theme.php
+#4  LINE: 178   FILE: /includes/core/user_functions.php
+#5  LINE: 272   FILE: /themes/egov/blocks/global.bootstrap.php
+
