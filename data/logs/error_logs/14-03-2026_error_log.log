@@ -1,0 +1,9 @@
+[Sat, 14 Mar 2026 11:18:27 +0700] [localhost] [::1] [User Notice(1024): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 95] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 280   FILE: /includes/mainfile.php
+#3  LINE: 95    FILE: /vendor/vinades/nukeviet/Core/Database.php
+
+[Sat, 14 Mar 2026 11:18:27 +0700] [localhost] [::1] [User Error(256): Sorry! Could not connect to data server] [FILE: /includes/mainfile.php] [LINE: 286] [TRACE:]
+#1  LINE: 17    FILE: /admin/index.php
+#2  LINE: 286   FILE: /includes/mainfile.php
+
