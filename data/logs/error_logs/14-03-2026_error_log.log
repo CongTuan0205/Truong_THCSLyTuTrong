@@ -7,3 +7,19 @@
 #1  LINE: 17    FILE: /admin/index.php
 #2  LINE: 286   FILE: /includes/mainfile.php
 
+[Sat, 14 Mar 2026 20:34:16 +0700] [localhost] [::1] [Notice(8): unserialize(): Error at offset 512 of 11962 bytes] [FILE: /vendor/vinades/nukeviet/Cache/Files.php] [LINE: 205] [TRACE:]
+#1  LINE: 345   FILE: /index.php
+#2  LINE: 309   FILE: /modules/contact/funcs/main.php
+#3  LINE: 319   FILE: /themes/egov/theme.php
+#4  LINE: 178   FILE: /includes/core/user_functions.php
+#5  LINE: 272   FILE: /themes/egov/blocks/global.bootstrap.php
+#6  LINE: 144   FILE: /themes/egov/blocks/global.bootstrap.php
+#7  LINE: 205   FILE: /vendor/vinades/nukeviet/Cache/Files.php
+
+[Sat, 14 Mar 2026 20:34:16 +0700] [localhost] [::1] [Warning(2): foreach() argument must be of type array|object, bool given] [FILE: /themes/egov/blocks/global.bootstrap.php] [LINE: 145] [TRACE:]
+#1  LINE: 345   FILE: /index.php
+#2  LINE: 309   FILE: /modules/contact/funcs/main.php
+#3  LINE: 319   FILE: /themes/egov/theme.php
+#4  LINE: 178   FILE: /includes/core/user_functions.php
+#5  LINE: 272   FILE: /themes/egov/blocks/global.bootstrap.php
+
