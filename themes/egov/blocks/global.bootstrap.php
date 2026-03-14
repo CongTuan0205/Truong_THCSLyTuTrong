@@ -142,8 +142,7 @@ if (!nv_function_exists('nv_menu_bootstrapegov')) {
         $array_menu = array();
         $sql = 'SELECT id, parentid, title, link, icon, note, subitem, groups_view, module_name, op, target, css, active_type FROM ' . NV_PREFIXLANG . '_menu_rows WHERE status=1 AND mid = ' . $block_config['menuid'] . ' ORDER BY weight ASC';
         $list = $nv_Cache->db($sql, '', 'menu');
-        if (!empty($list) && is_array($list)) {
-    foreach ($list as $row) {
+        foreach ($list as $row) {
             if (nv_user_in_groups($row['groups_view'])) {
                 switch ($row['target']) {
                     case 1:

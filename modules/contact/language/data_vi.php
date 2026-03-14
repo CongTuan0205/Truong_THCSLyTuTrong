@@ -20,8 +20,8 @@ if (!defined('NV_ADMIN')) {
  */
 $sth = $db->prepare('INSERT INTO ' . $db_config['prefix'] . '_' . $lang . '_' . $module_data . "_department (full_name, alias, phone, fax, email, address, note, others, cats, admins, act, weight, is_default) VALUES (:full_name, :alias, :phone, :fax, :email, '', :note, :others, :cats, '1/1/1/0;', 1, :weight, :is_default)");
 
-$full_name = 'Góp Ý và Tư vấn';
-$alias = 'Gop-y-va-tu-van';
+$full_name = 'Chăm sóc khách hàng';
+$alias = 'Cham-soc-khach-hang';
 $phone = '(08) 38.000.000[+84838000000]';
 $fax = '08 38.000.001';
 $email = 'customer@mysite.com';
