@@ -2011,11 +2011,11 @@ input[type=radio]:checked:before {
 }
 
 .panel-primary>.panel-heading>a {
-    color:#fff;
+    color:#ec0d0d;
 }
 
 .panel-primary>.panel-heading>a:hover {
-    color:#dcdcdc;
+    color:#ed0c0c;
 }
 
 table caption {
