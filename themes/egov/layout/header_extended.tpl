@@ -2,12 +2,7 @@
         <div class="alert alert-danger">{LANG.nojs}</div>
     </noscript>
     <div class="body-bg">
-    <div class="sitemenu-bg">
-        <div class="sitemenu-ct">
-            <div class="sitemenu-ctl">&nbsp;</div>
-            <div class="sitemenu-ctr">&nbsp;</div>
-        </div>
-    </div>
+  
     <div class="wraper bg-shadow-body">
         <header>
             <div class="container">

@@ -13,12 +13,19 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-24 col-sm-24 col-md-24 color-text-footer margin-footer-site">
-                            	[FOOTER_SITE]
-                                <div class="col-md-24 text-center">
-                                    [COPYRIGHT]
-                                </div>
-                                <div class="col-md-24">
-                                    <p class="text-center">Powered by <a href="http://egov.nukeviet.vn">NukeViet eGovernment</a>. Designed by <a href="https://vinades.vn/">VINADES.,JSC</a>.</p>
+                            	<h3><strong>TRƯỜNG THCS Lý Tự Trọng</strong></h3>
+
+                            <p>
+                                Địa chỉ: tọa lạc tại 74WJ+VJ9, Cao Thượng Phẩm, TT. Hoà Thành, Hoà Thành, Tây Ninh, Việt Nam
+                            </p>
+
+                            <p>
+                                Điện thoại: 0276.3841102
+                            </p>
+
+                            <p>
+                                Email: www.thcslytutrong.giaoductayninh.vn
+                            </p>
                                 </div>
                         </div>
                     </div>
