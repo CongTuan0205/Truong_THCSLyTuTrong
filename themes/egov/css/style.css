@@ -12,7 +12,7 @@
     border-style:solid;
     border-width:0 1px 0 1px;
     box-shadow:0 0 4px rgba(0,0,0,0.15);
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.3);
+    
     background: rgba(0,0,0,0.3);
 }
 
@@ -788,7 +788,7 @@ a.btn {
     left:0;
     min-width:100%;
     min-height:100%;
-    background: #eeeeee url("../images/bgtrongdong_1.png") top center no-repeat;
+    background: #ff09b9 url("../images/") top center no-repeat;
 }
 
 /* Header */
@@ -1558,7 +1558,7 @@ a.btn {
 /* Footer */
 
 #footer {
-    background: #d5d5d5 url("../images/bg-footer.png") center top no-repeat;
+    background: #f00ec299("../images/") center top no-repeat;
     position:relative;
     width:100%;
     font-size:13px
@@ -2315,7 +2315,7 @@ button.close {
 }
 
 .fix-more-padding {
-    padding: 20px;
+    padding: 0px;
 }
 
 .fix-pad-panel-body {
@@ -2329,8 +2329,7 @@ button.close {
 }
 
 .shadow-bg-1 {
-    border-radius: 0px 0px 10px 10px;
-    margin-bottom: 5px;
+    
 }
 
 .shadow-bg-2 {
@@ -2338,8 +2337,7 @@ button.close {
 }
 
 .shadow-bg {
-    border-radius: 10px;
-    margin-bottom: 5px;
+   
 }
 
 .more-news a {
@@ -2417,7 +2415,7 @@ button.close {
 }
 
 .margin-footer-site {
-    margin-top: 50px;
+    margin-top: 5px;
     margin-bottom: 10px;
     vertical-align: bottom;
 }

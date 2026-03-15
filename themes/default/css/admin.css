@@ -43,11 +43,7 @@
 
 /* DRAG BLOCK */
 .column {
-    position: relative;
-    border: 1px solid #ff6600;
-    height: auto !important;
-    min-height: 50px;
-    width: 100%;
+   
 }
 
 .column .add {

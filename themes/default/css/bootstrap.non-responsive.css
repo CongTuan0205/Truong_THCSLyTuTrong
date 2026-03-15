@@ -4173,7 +4173,7 @@ a.list-group-item-danger.active, button.list-group-item-danger.active, a.list-gr
 }
 
 .panel-body {
-    padding: 15px;
+    padding: 0px;
 }
 
 .panel-heading {
@@ -4348,22 +4348,22 @@ a.list-group-item-danger.active, button.list-group-item-danger.active, a.list-gr
 }
 
 .panel-default {
-    border-color: #dddddd;
+    border-color: #e90a8e9e;
 }
 
 .panel-default>.panel-heading {
-    color: #333333;
-    background-color: #f5f5f5;
-    border-color: #dddddd;
+    color: #e90ac0a6;
+    background-color: #e90ac0a6;
+    border-color: #e90ac0a6;
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
-    border-top-color: #dddddd;
+    border-top-color: #e90a8e9e;
 }
 
 .panel-default>.panel-heading .badge {
     color: #f5f5f5;
-    background-color: #333333;
+    background-color: #e90a8e9e;
 }
 
 .panel-default>.panel-footer+.panel-collapse>.panel-body {
