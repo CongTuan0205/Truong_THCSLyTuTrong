@@ -39,6 +39,7 @@
 	[FOOTER]
 </div>
 <div class="row shadow-bg-2 bg-body-new fix-more-padding">
+</div>
 	[FOOTER_2]
 </div>
 {FILE "footer_extended.tpl"}
