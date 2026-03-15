@@ -261,7 +261,7 @@
 }
 
 .boder-top {
-    border-top-width: 1px;
+    border-top-width: 0px;
     border-top-style: solid;
     border-top-color: #ccc;
 }
